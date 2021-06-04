@@ -1,0 +1,80 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "gitignore": {
+    "prefix": ".gitignore",
+    "body": [
+      "# .gitignore",
+      "# Bare Minimum Git",
+      "# https://salferrarello.com/starter-gitignore-file/",
+      "# ver 20210211",
+      "# To stop tracking a file that is currently tracked,",
+      "# use `git rm --cached`",
+      "# -----------------------------------------------------------------",
+      "# ignore all files starting with . or ~",
+      ".*",
+      "~*",
+      "# ignore node/grunt dependency directories",
+      "node_modules/",
+      "# ignore composer vendor directory",
+      "/vendor",
+      "# ignore components loaded via Bower",
+      "/bower_components",
+      "# ignore jekyll build directory",
+      "/_site",
+      "# ignore OS generated files",
+      "ehthumbs.db",
+      "Thumbs.db",
+      "# ignore Editor files",
+      "*.sublime-project",
+      "*.sublime-workspace",
+      "*.komodoproject",
+      "# ignore log files and databases",
+      "*.log",
+      "*.sql",
+      "*.sqlite",
+      "# ignore compiled files",
+      "*.com",
+      "*.class",
+      "*.dll",
+      "*.exe",
+      "*.o",
+      "*.so",
+      "# ignore packaged files",
+      "*.7z",
+      "*.dmg",
+      "*.gz",
+      "*.iso",
+      "*.jar",
+      "*.rar",
+      "*.tar",
+      "*.zip",
+      "# ignore private/secret files",
+      "*.der",
+      "*.key",
+      "*.pem",
+      "# --------------------------------------------------------",
+      "# BEGIN Explictly Allowed Files (i.e. do NOT ignore these)",
+      "# --------------------------------------------------------",
+      "# track these files, if they exist",
+      "!.gitignore",
+      "!.editorconfig",
+      "!.phpcs.xml.dist",
+      "!.env.example"
+    ]
+  }
+}

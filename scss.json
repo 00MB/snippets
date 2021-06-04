@@ -3,9 +3,11 @@
 		"prefix": "skeleton",
 		"body": [
 			"/*Lato font*/",
-			"@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');\n",
+			"@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');",
+			"$$lato: 'Lato', sans-serif;\n",
 			"/*DM sans font*/",
-			"@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');\n",
+			"@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');",
+			"$$dmsans: 'DM Sans', sans-serif;\n",
 			"/*Common colours*/\n",
 			"/*Black and white*/",
 			"$$white: #f8faff;",
@@ -29,8 +31,9 @@
 			"$$discord-blue-old: #7289da;",
 			"$$neuralworks-blue: #437085;",
 			"$$hestia-purple: #5900cc;",
-
-			"body {background-color:$blue}"
+			"\n/* Elements */",
+			"h1, h2, h3, h4, h5 {color: $$black; font-family: $$dmsans;}",
+			"p {color: $$black; font-family: $$lato;}"
 		],
 		"description": "skeleton for css"
 	}
